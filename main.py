@@ -49,7 +49,6 @@ class FaceRecognitionApp:
         
         self.cap = cv2.VideoCapture(self.current_camera_index)
         
-
         # Frame for name and ID inputs
         self.student_info_frame = tk.Frame(root)
         self.student_info_frame.pack(side=tk.BOTTOM, pady=10)
