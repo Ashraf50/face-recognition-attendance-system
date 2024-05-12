@@ -7,7 +7,6 @@ def choose_best_face(video_path, face_id):
 
     max_confidence = -1
     best_face = None
-
     # Skip frames for faster processing
     frame_skip = 5
     frame_count = 0

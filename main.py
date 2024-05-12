@@ -6,7 +6,6 @@ from openpyxl import Workbook
 from FaceRecognition import FaceRecognition
 from choose_best_face import choose_best_face
 from database_helper import *
-from datetime import datetime 
 
 class FaceRecognitionApp:
     def __init__(self, root):
